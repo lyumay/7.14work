@@ -1,0 +1,83 @@
+a{
+    text-decoration: none;
+}
+/* 天猫超市部分 */
+.goods-content-right .market-container{
+    width: 484px;
+    height: 302px;
+    margin-bottom: 13px;
+}
+.goods-content-right .market-inner{
+    width: 462px;
+    height: 282px;
+    margin: 10px;
+    box-shadow: 0 2px 8px 0 rgba(0,0,0,0.09);
+}
+.goods-content-right .market-container .head-inner{
+    width: 191px;
+    height: 57px;
+    line-height: 57px;
+    font-size: 18px;
+    padding: 0 20px;
+    float: left;
+    text-align: center;
+    color: #000;
+    background-color: #f1f1f1;
+}
+.goods-content-right .market-container .bottom{
+    position: relative;
+}
+.goods-content-right .market-container .bottom img{
+    float: right;
+    margin-top: 10px;
+    margin-right: 30px;
+    width: 200px;
+    height: 200px;
+}
+.goods-content-right .market-container .active{
+    color:#fff;
+    background-color: #00b262;
+}
+.goods-content-right .market-container .inner-title{
+    position: absolute;
+    width:265px;
+    height: 79px;
+    top:143px;
+    left:0;
+    background-color: rgba(195,195,195,.3);
+    padding-top: 8px;
+}
+.goods-content-right .market-container .inner-border{
+    position: absolute;
+    left:265px;
+    top:143px;
+    width: 0;
+    height: 0;
+    border-width:43.5px 34px;
+    border-style: solid;
+    border-color: transparent transparent transparent  rgba(195,195,195,.3);
+}
+.goods-content-right .market-container .bottom .inner-title img{
+    width: 23px;
+    height: 23px;
+    margin-left: 23px;
+    margin-right: 0;
+    margin-top: 4.5px;
+    /* vertical-align: middle; */
+    float: left;
+}
+.goods-content-right .market-container .inner-title span{
+    /* float: left; */
+    font-size: 24px;
+    margin-left: 8px;
+    color:#00b262;
+    font-weight: 700;
+    /* margin-top: 12px; */
+}
+.goods-content-right .market-container .inner-title p{
+    margin-left: 23px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 29px;
+}
+
